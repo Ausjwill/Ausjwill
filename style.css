@@ -16,7 +16,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgba(177, 177, 177, 0.9);
+    background-color: rgb(177, 177, 177);
     width: 100%;
     line-height: 50px;
     z-index: 4;
@@ -36,53 +36,77 @@ li a {
 }
 
  li a:hover {
-     color: rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
+     text-shadow: 3px 3px 5px rgb(0, 0, 0);
      text-decoration: none;
  }
 
 .intro_one {
-    color: rgb(0, 0, 0);
-    text-shadow: 0 0 5px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
     font-family: fantasy;
     font-size: 100px;
 }
 
 .intro_two {
-    color: #000000;
-    text-shadow: 0 0 5px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
 }
 
 .about {
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 90px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .about_me {
-    padding-top: 10px;
+    padding-top: 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.me {
+    margin-top: 6px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: fantasy;
 }
 
 .projects-section-header{
+    color: rgb(0, 0, 0);
+    font-size: 10vh;
+    font-family: fantasy;
     text-align: center;
     margin: 30px;
     padding-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);   
 }
 
 .caption a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(143, 143, 143);
+    color: rgb(0, 0, 0);
 }
 
 .caption a:hover {
     text-decoration: none;
-    color: #5a5a5a;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 .end {
-    padding-top: 26.1vh;
-    padding-bottom: 50.1vh;
+    padding-top: 20.2vh;
+    padding-bottom: 38.2vh;
     color: #f8f8f8;
     background: url("https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80")no-repeat center;
     background-size: cover;
@@ -90,7 +114,7 @@ li a {
 
 .contact {
     padding: 10px;
-    background-color: rgba(177, 177, 177, 0.6);;
+    background-color: rgba(177, 177, 177, 0.6);
     border-radius: 15px;
 }
 
@@ -101,7 +125,6 @@ li a {
 
 #footer {
     background-color: rgb(177, 177, 177);
-    min-height: 40px;
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
