@@ -55,6 +55,17 @@ li a {
     font-size: 50px;
 }
 
+.icon {
+    float: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav_img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
 .about {
     height: 100vh;
     padding-top: 90px;
