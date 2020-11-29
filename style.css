@@ -8,38 +8,9 @@ body {
     text-align: center;
     color: #f8f8f8;
     background: url("https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80")no-repeat center;
-    background-size: cover;
-}
-
-ul {
-    position: fixed;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(190, 190, 190);
+    
     width: 100%;
-    line-height: 50px;
-    z-index: 4;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
- }
- 
- li {
-    display: inline;
-    padding: 20px;
-    text-align: center;
- }
-
-li a {
-    color: #5a5a5a;
 }
-
- li a:hover {
-     color: rgb(255, 255, 255);
-     text-shadow: 3px 3px 5px rgb(0, 0, 0);
-     text-decoration: none;
- }
 
 .intro_one {
     color: rgb(255, 255, 255);
@@ -55,23 +26,11 @@ li a {
     font-size: 50px;
 }
 
-.icon {
-    float: right;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.nav_img {
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0);
-}
-
 .about {
-    height: 100vh;
-    padding-top: 90px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
+    height: 100%;
+    width: 100%;
+    padding-top: 20vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
 .about_me {
@@ -91,18 +50,24 @@ h2 {
     font-family: fantasy;
 }
 
+#projects {
+    margin-bottom: 50vh;
+}
+
 .projects-section-header{
     color: rgb(0, 0, 0);
+    text-shadow: 6px 6px 4px rgb(166, 173, 180);
     font-size: 10vh;
     font-family: fantasy;
     text-align: center;
     margin: 30px;
-    padding-top: 50px;
+    padding-top: 90px;
+    margin-top: 50vh;
 }
 
 .img {
     border-radius: 15px;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0);   
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 .caption a {
@@ -117,14 +82,16 @@ h2 {
 }
 
 .end {
-    padding-top: 20.2vh;
+    padding-top: 90px;
     padding-bottom: 38.2vh;
     color: #f8f8f8;
     background: url("https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80")no-repeat center;
     background-size: cover;
+    width: 100%;
 }
 
 .contact {
+    margin-top: 25vh;
     padding: 10px;
     background-color: rgba(190, 190, 190, 0.6);
     border-radius: 15px;
@@ -136,7 +103,8 @@ h2 {
 }
 
 #footer {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(52, 58, 64);
+    color: rgb(147, 156, 153);
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
     padding-left: 10px;
